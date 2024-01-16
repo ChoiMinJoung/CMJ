@@ -1103,3 +1103,8 @@ h1, h2, h3, h4, h5,
 .port-img{
   text-align: center;
 }
+
+.span{
+  color: #82b6ad;
+  font-weight: 700;
+}
