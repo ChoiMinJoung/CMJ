@@ -908,9 +908,7 @@ h1, h2, h3, h4, h5,
     text-align: center;
     /* margin-bottom: 1em; */
     color: #000; }
-    @media (max-width: 991.98px) {
-      .site-section .heading {
-        font-size: 2.5rem; } }
+
 
 /* .block-13, .slide-one-item {
   position: relative;
@@ -1008,7 +1006,6 @@ h1, h2, h3, h4, h5,
 .container{
     max-width: 100em;
     margin-bottom: 5rem;
-    /* margin: auto; */
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -1050,18 +1047,18 @@ h1, h2, h3, h4, h5,
 @media(max-width:1500px){
   .container .video-list-container{
     height: 500px;}}
-@media(max-width:1336px){
+@media(max-width:1360px){
   .container .video-list-container{
-    height: 500px;}}
-@media(max-width:1000px){
+    height: 460px;}}
+@media(max-width:1200px){
   .container .video-list-container{
     height: 400px;}}
 @media(max-width:768px){
   .container .video-list-container{
-    height: 300px;}}
+    height: 350px;}}
 @media(max-width:575.98px){
   .container .video-list-container{
-    height: 200px;}}
+    height: 300px;}}
 
 .container .video-list-container .list{
     display: flex;
@@ -1111,6 +1108,11 @@ h1, h2, h3, h4, h5,
 #h1{
   font-size: 5rem;
 }
+@media(max-width:600px){
+  #h1{
+    font-size: 4rem;
+  }
+}
 
 .p{
   font-family: 'Noto Sans KR', sans-serif;
@@ -1120,4 +1122,7 @@ h1, h2, h3, h4, h5,
 .lead{
   font-family: 'Noto Sans KR', sans-serif;
   font-size: x-large;
+}
+.port-img{
+  text-align: center;
 }
