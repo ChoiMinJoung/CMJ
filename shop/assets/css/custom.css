@@ -1,0 +1,95 @@
+/*
+color: #0058AB;
+Custom Css
+*/
+.navbar{
+    flex-direction: row-reverse;
+}
+.nav-icon{
+    padding-left: 1.5rem;
+}
+#templatemo_main_nav .navbar-nav {
+    max-width: 1200px;}
+
+    /* carousel */
+@media(max-width:500px){
+    #template-mo-zay-hero-carousel .carousel-indicators{
+        margin-top: 1rem;
+    }
+    .carousel-inner{
+        height: 40rem;
+    }
+}
+@media(max-width:766px){
+    #template-mo-zay-hero-carousel .carousel-indicators{
+        margin-top: 1rem;
+    }
+    .carousel-inner{
+        height: 50rem;
+    }
+}
+@media(max-width:992px){
+    .carousel-indicators{
+        width: 20rem;
+    }
+    .carousel-inner{
+        height: 50rem;
+    }
+}
+@media(min-width:992px){
+    .carousel-indicators{
+        width: 20rem;
+    }
+}
+@media(min-width:1300px){
+    .carousel-indicators{
+        width: 35rem;
+    }
+}
+
+.carousel-inner{
+    background-color: #E5EEF7;
+}
+
+
+/* .somedo{
+    max-width: 15rem;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    font-size: column;
+} */
+/* @media(max-width:400px){
+    .somedo{
+        width: 10rem;
+        height: 100%;
+    }
+} */
+
+.play-button{
+    position: absolute;
+    /* top: 24px; */
+    right: 1rem;
+    bottom: 1rem;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    border-radius: 50%;
+    background: #0058AB url(/shop/assets/img/icon-play.png) center no-repeat;
+    background-size: 20px;
+}
+.card-a{
+    position: relative;
+}
+
+
+.py-a{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.h2{
+    margin-bottom: 3rem;
+}
+.card{
+    margin-top: .5rem;
+}

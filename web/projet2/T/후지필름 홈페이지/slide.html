@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUJIFILM</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+    <!-- aos cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="css/slide.css">
+
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#">신제품</a>
+            <a href="#">프로모션</a>
+            <a href="#">카메라</a>
+            <a href="#">렌즈</a>
+            <a href="#">액세서리</a>
+            <a href="#">프로젝터</a>
+            <a href="#">오리지널 굿즈</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="text" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3 data-aos="fade-right">FUJIFILM</h3>
+            <p data-aos="fade-up">make MORE wiht LESS</p>
+            <a href="https://fujifilm-korea.co.kr/" class="btn">LEARN MORE</a>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- world section start -->
+    <section class="world" id="world">
+        <h1 class="heading"><span>신</span>제품</h1>
+        <div class="row">
+            <swiper-container class="mySwiper" 
+            speed="600" parallax="true" pagination="true" pagination-clickable="true" navigation="true">
+
+                <swiper-slide>
+                    <div class="image">
+                        <img src="images/new1.jpg" alt="slide1">
+                        <div class="content">
+                            <h3>FUJIFILM X-T5</h3>
+                            <p>
+                                5세대 디바이스의 압도적인 해상도, <br>
+                                사진 촬영의 본질을 일깨우는 다어얼 조작, <br>
+                                기동성이 뛰어난 컴팩트 바디.<br>
+                                오롯이 사진에 집중한 카메라, X-T5 
+                                Patrick La Ropue <br>
+                                X-T5는 그립이 깊어서 잡기가 편한데 기존 기종보다 더 작고 컴팩트합니다. <br>
+                                흥미로운 점은 이전 모델의 모든 기능과 특징을 유지하면서 새로운 40MP <br>
+                                센서를 추가했음에도 불구하고 이것을 이루었다는 점이죠.<br>
+        
+                            </p>
+                            <a href="https://fujifilm-korea.co.kr/products/new" class="btn">자세히 보기</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+        
+                <swiper-slide>
+                    <div class="image">
+                        <img src="images/new2.jpg" alt="slide2">
+                        <div class="content">
+                            <h3>FUJIFILM X-T5</h3>
+                            <p>
+                                Bert Stephani <br>
+                                X-Processor 5 는 매우 빠르고 신뢰할 수 있는 새로운 AF 시스템을 <br>
+                                제공합니다. X-T5의 AF는 확실하기 때문에 개방조리개에 AF-C를 사용해서 <br>
+                                얼굴·눈동자 검출 기능에 기술적인 부분을 맡기고 저는 피사체에만 의식을 <br>
+                                집중시킬 수 있게 되었습니다.<br>
+                                Jakub Cejpek <br>
+                                X-Processor 5와 X-Trans™ CMOS 5 HR 4000만 화소 센서. 이 조합은<br>
+                                후지필름 APS-C 센서 최고의 화질을 실현합니다.
+                            </p>
+                            <a href="https://fujifilm-x.com/ko-kr/stories/x-t5-x-bert-stephani/" class="btn">자세히 보기</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+        
+                <swiper-slide>
+                    <div class="image">
+                        <img src="images/new3.jpg" alt="slide3">
+                        <div class="content">
+                            <h3>Coming Soon</h3>
+                            <p>jimin yoo <br>
+                              순간을 포착하려다 보면, 한 손으로 촬영해야하는 순간도 많은데 빠르게 <br>
+                              전원을 키고 한 손 촬영을 하는데에 X-T5는 최적의 카메라였습니다. <br>
+                              센서 크기에 비해 화소가 높어 저조도에서의 노이즈가 걱정이 되었지만,<br>
+                              JPG파일임에도 불구하고 높은 ISO 감도에서도 노이즈 억제력이 생각보다 <br>
+                              훨씬 우수해 놀랐습니다.
+                            </p>
+                            <a href="https://fujifilm-x.com/ko-kr/stories/x-t5-x-jakub-cejpek/" class="btn">자세히 보기</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+        
+            </swiper-container>
+
+        </div>
+    </section>
+
+
+    
+
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+
+</body>
+
+</html>
