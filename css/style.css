@@ -240,7 +240,7 @@ h5,
 }
 @media(max-width:500px) {
   .site-section-video{
-    height: 32vh;
+    height: 40vh;
   }
 }
 @media(min-width:1800px) {
