@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5,
       background-color: white;
       box-shadow: 3px 4px 5px 0px rgba(204 185 185 / .75);
     }
-    
+
     .progress-container .progress-bar span {
       position: absolute;
       top: 0;
@@ -146,10 +146,24 @@ h1, h2, h3, h4, h5,
       line-height: 1.7;
       text-align: center;
       border-radius: 30px;
-      background: linear-gradient(90deg, #f4594d 50%, rgb(253, 137, 41) 100%);
+      background: linear-gradient(90deg, #dd4b48 50%, #dd4b48 100%);
       transition: width .5s linear;
     }
-    
+
+    @media(max-width:600px){
+      .progress-container{
+        margin-bottom: 10px;
+      }
+      .progress-container h4{
+        font-size: 1rem;
+      }
+      .progress-container .progress-bar{
+        height: 15px;
+      }
+      .progress-container .progress-bar span{
+        font-size: 10px;
+      }
+    }
 
 
 
