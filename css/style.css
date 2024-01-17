@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5,
       line-height: 1.7;
       text-align: center;
       border-radius: 30px;
-      background: linear-gradient(90deg, #dd4b48 50%, #dd4b48 100%);
+      background: linear-gradient(90deg, #82b6ad 50%, #82b6ad 100%);
       transition: width .5s linear;
     }
 
