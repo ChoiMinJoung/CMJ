@@ -173,6 +173,9 @@ h1, h2, h3, h4, h5,
       padding: 5em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; } */
+.site-section{
+  color: #2a4944;
+}
 
 .site-section-heading {
   padding-bottom: 20px;
