@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5,
       transition: width .5s linear;
     }
 
-    /* @media(max-width:600px){
+    @media(max-width:600px){
       .progress-container{
         margin-bottom: 10px;
       }
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5,
       .progress-container .progress-bar span{
         font-size: 10px;
       }
-    } */
+    }
 
 
 /* .site-section {
