@@ -17,24 +17,24 @@ Custom Css
         margin-top: 1rem;
     }
     .carousel-inner{
-        height: 40rem;
+        height: 6rem;
     }
 }
 @media(max-width:766px){
     #template-mo-zay-hero-carousel .carousel-indicators{
         margin-top: 1rem;
     }
-    .carousel-inner{
+    /* .carousel-inner{
         height: 50rem;
-    }
+    } */
 }
 @media(max-width:992px){
     .carousel-indicators{
         width: 20rem;
     }
-    .carousel-inner{
+    /* .carousel-inner{
         height: 50rem;
-    }
+    } */
 }
 @media(min-width:992px){
     .carousel-indicators{
