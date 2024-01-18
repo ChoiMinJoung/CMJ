@@ -1295,11 +1295,21 @@ h5,
   z-index: 2;
   position: relative;
 }
+.site-section-hero .row{
+  position: absolute;
+  top: 0;
+}
+
 @media(max-width:500px) {
   .site-section-hero{
     height: 0;
     width: 0;
     min-height: 350px;
+  }
+  .site-section-hero .row{
+    height: 50vh;
+    width: 19rem;
+    margin-left: 4rem;
   }
 }
 
@@ -1559,6 +1569,7 @@ h5,
 
 .heading {
   margin-bottom: 2rem;
+  z-index: 99;
 }
 
 #h1 {
@@ -1589,4 +1600,7 @@ h5,
 .span {
   color: rgb(129, 231, 214);
   font-weight: 700;
+}
+.designer{
+  z-index: 99;
 }
