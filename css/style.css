@@ -953,6 +953,8 @@ h5,
 @media(max-width:500px){
   .header-bar{
     position: fixed;
+    width: 250px;
+    width: 500px;
   }
 }
 
