@@ -237,7 +237,7 @@ h5,
 .visual_mov , .visual_mov::before ,
 .VC_title , .VC_summary , .visual_container { width:100% ; box-sizing:border-box }
 .visual_mov { 
-    position:relative ; height:35rem ; overflow:hidden ;
+    position:relative ; height:45rem ; overflow:hidden ;
     background:url(../images/v10.png) no-repeat center ; background-size:cover ;
 }
 
@@ -1645,7 +1645,7 @@ h5,
 }
 @media(max-width:500px){
   .port-heading{
-    margin-top: 15rem;
+    margin-top: 20rem;
   }
 }
 
