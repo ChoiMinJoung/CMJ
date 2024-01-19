@@ -231,25 +231,67 @@ h5,
   color: #2a4944;
 }
 
-.site-section-video {
+/* @charset "utf-8"; */
+
+/* VISUAL */
+.visual_mov , .visual_mov::before ,
+.VC_title , .VC_summary , .visual_container { width:100% ; box-sizing:border-box }
+.visual_mov { 
+    position:relative ; height:45rem ; overflow:hidden ;
+    background:url(../images/v10.png) no-repeat center ; background-size:cover ;
+}
+
+.visual_mov::before , .visual_mov > video , .visual_container { position:absolute ; left:50% ; top:50% ; transform:translate(-50%,-50%) } 
+.visual_mov::before { height:100% }
+.visual_mov::before { display:block ; content:"" ; background-color:#000000 ; opacity:0.3 }
+
+.visual_mov > video { z-index:5 }
+.visual_mov::before { z-index:6 }
+.visual_container   { z-index:9 ; text-align:center }
+
+.visual_mov.stop > video { display:none }
+
+.VC_title , .VC_summary { color:#ffffff ; word-break:keep-all ; text-align:center }
+.VC_title   { font-size:3rem ; line-height:4rem ; font-weight:600 ; margin-bottom:1.5rem }
+.VC_summary { font-size:1.4rem ; line-height:2.4rem ; opacity:0.8 ; margin-bottom:3rem }
+ 
+/* PC **********/
+@media all and (min-width:1100px){ 
+ 
+  /* VISUAL */
+  .visual_mov { height:100vh } 
+   
+
+  .VC_title   { font-size:5rem ; line-height:6rem ; margin-bottom:2.5rem }
+  .VC_summary { font-size:1.6rem ; line-height:2.8rem ; margin-bottom:4rem }
+
+}
+
+
+
+/* .site-section-video {
   height: 100vh;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+
 @media(max-width:500px) {
+
+
   .site-section-video{
     height: 50vh;
-    width: 45vh;
-    margin-top: 0;
+    width: 70vh;
   }
 }
 @media(min-width:1800px) {
   .site-section-video{
     height: 100vh;
   }
-}
+} */
+
 .site-section-heading {
   padding-bottom: 20px;
   margin-bottom: 50px;
@@ -1304,8 +1346,8 @@ h5,
 
 @media(max-width:500px) {
   .site-section-hero{
-    height: 0;
-    width: 0;
+    height: 10rem;
+    width: 500px;
     min-height: 350px;
   }
   .site-section-hero .row{
@@ -1597,6 +1639,11 @@ h5,
 
 .port-img {
   text-align: center;
+}
+@media(max-width:500px){
+  .port-heading{
+    margin-top: 20rem;
+  }
 }
 
 .span {
