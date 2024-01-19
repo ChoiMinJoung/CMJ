@@ -1634,6 +1634,11 @@ h5,
   font-weight: 400;
   font-size: large;
 }
+@media(max-width:500px){
+  .p{
+    font-size:medium;
+  }
+}
 
 .lead {
   font-family: 'Noto Sans KR', sans-serif;
