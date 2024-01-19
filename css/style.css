@@ -238,7 +238,7 @@ h5,
 .VC_title , .VC_summary , .visual_container { width:100% ; box-sizing:border-box }
 .visual_mov { 
     position:relative ; height:45rem ; overflow:hidden ;
-    background:url(../images/v10.jpg) no-repeat center ; background-size:cover ;
+    background:url(../images/v11.jpg) no-repeat center ; background-size:cover ;
 }
 
 .visual_mov::before , .visual_mov > video , .visual_container { position:absolute ; left:50% ; top:50% ; transform:translate(-50%,-50%) } 
