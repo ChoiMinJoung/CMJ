@@ -243,7 +243,10 @@ h5,
 
 .visual_mov::before , .visual_mov > video , .visual_container { position:absolute ; left:50% ; top:50% ; transform:translate(-50%,-50%) } 
 .visual_mov::before { height:100% }
-.visual_mov::before { display:block ; content:"" ; background-color:#000000 ; opacity:0.3 }
+.visual_mov::before { 
+  display:block ; content:"" ; 
+  /* background-color:#000000 ; opacity:0.3  */
+}
 
 .visual_mov > video { z-index:5 }
 .visual_mov::before { z-index:6 }
