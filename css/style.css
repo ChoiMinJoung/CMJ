@@ -240,7 +240,9 @@ h5,
 }
 @media(max-width:500px) {
   .site-section-video{
-    height: 40vh;
+    height: 50vh;
+    width: 45vh;
+    margin-top: 0;
   }
 }
 @media(min-width:1800px) {
@@ -1309,7 +1311,7 @@ h5,
   .site-section-hero .row{
     height: 50vh;
     width: 19rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
   }
 }
 
