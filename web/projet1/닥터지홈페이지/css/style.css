@@ -357,6 +357,11 @@ section {
     height: 30rem;
     width: 100%;
 }
+@media(max-width:450px){
+    .themes .box-container .box img{
+        height: 40rem;
+    }
+}
 
 .themes .box-container .box .content h3 {
     color: var(--bblack);
@@ -689,7 +694,7 @@ section {
     }
 
     .home {
-        min-height: 100vh;
+        min-height: 70vh;
         background-size: auto;
     }
 
